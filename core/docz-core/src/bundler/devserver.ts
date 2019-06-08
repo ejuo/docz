@@ -22,7 +22,6 @@ export const devServerConfig = (hooks: ServerHooks, args: Args) => {
     watchContentBase: true,
     hot: true,
     quiet: !args.debug,
-    open: true,
     watchOptions: {
       ignored: ignoredFiles(srcPath),
     },
